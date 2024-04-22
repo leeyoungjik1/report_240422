@@ -1,0 +1,45 @@
+.movie-title{
+    text-decoration: none;
+    flex: 1;
+    color: lightsalmon;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie-title:hover{
+    color: chocolate;
+}
+.search-movie{
+    all: unset;
+    margin: 20px;
+    width: 400px;
+    height: 50px;
+    border: 2px solid lightgreen;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 15px;
+    color: lightgreen;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.search-movie::placeholder{
+    color: lightgreen;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.movie-container{
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: orangered;
+    color: white;
+    border-radius: 10px;
+}
+.active{
+    color: orangered;
+}
